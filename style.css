@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+a{
+    width: 10px;
+}
+
 .mulheres{
     border-radius: 50%;
     width: 300px;
