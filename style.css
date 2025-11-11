@@ -18,7 +18,7 @@
 }
 
 .botoes:hover{
-    transform: scale(1.1) rotate(4deg);
+    transform: scale(1.1) rotate(2.5deg);
     box-shadow: 0 10px 20px black;
 }
 
