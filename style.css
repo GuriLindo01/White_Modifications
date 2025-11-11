@@ -27,6 +27,12 @@
     box-shadow: 0 10px 20px black;
 }
 
+footer{
+    height: 100px;
+    width: 100%;
+    background-color: gray;
+}
+
 body { 
     background-image: url("https://static.vecteezy.com/system/resources/thumbnails/011/020/176/small/abstract-white-and-light-gray-wave-modern-soft-luxury-texture-with-smooth-and-clean-background-free-vector.jpg");
     background-size: cover;
