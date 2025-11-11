@@ -1,5 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body { 
     background-image: url("https://static.vecteezy.com/system/resources/thumbnails/011/020/176/small/abstract-white-and-light-gray-wave-modern-soft-luxury-texture-with-smooth-and-clean-background-free-vector.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .cabecalho{
