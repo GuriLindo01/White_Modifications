@@ -3,10 +3,6 @@
     padding: 0;
 }
 
-a{
-    width: 10px;
-}
-
 .mulheres{
     border-radius: 50%;
     width: 300px;
@@ -18,7 +14,7 @@ a{
     height: 300px;
     border-radius: 50%;
     margin-top: 50%;
-    margin: 80px;
+    margin: 90px;
 }
 
 .botoes:hover{
