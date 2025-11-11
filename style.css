@@ -28,9 +28,10 @@
 }
 
 footer{
-    height: 100px;
+    margin-bottom: 0;
+    height: 150px;
     width: 100%;
-    background-color: gray;
+    background-color: rgb(59, 59, 59);
 }
 
 body { 
