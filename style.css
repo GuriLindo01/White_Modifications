@@ -3,6 +3,12 @@
     padding: 0;
 }
 
+.mulheres{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
 body { 
     background-image: url("https://static.vecteezy.com/system/resources/thumbnails/011/020/176/small/abstract-white-and-light-gray-wave-modern-soft-luxury-texture-with-smooth-and-clean-background-free-vector.jpg");
     background-size: cover;
