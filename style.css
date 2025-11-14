@@ -4,6 +4,11 @@
     max-width: 100;
 }
 
+hr{
+    margin: 0;
+    background-color: green;
+}
+
 .mulheres{
     border-radius: 50%;
     width: 300px;
