@@ -101,6 +101,10 @@ button{
 
 @media(max-widht: 768px){
 
+#titulo{
+    font-size: 40px;
+}
+
 body{
     overflow: scroll;
 }
