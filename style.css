@@ -98,6 +98,7 @@ button{
 }
 
 .rodape{
+    margin: 0;
     height: 100px;
     padding: 140px 0;
     background-color: rgb(75, 75, 75);
