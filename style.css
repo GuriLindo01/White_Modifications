@@ -88,3 +88,8 @@ button{
     color: rgb(255, 0, 132);
 
 }
+
+.rodape{
+    background-color: gray;
+    margin: 0;
+}
