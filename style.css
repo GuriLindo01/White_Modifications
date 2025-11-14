@@ -1,46 +1,46 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-hr{
+hr {
     margin-top: 0;
     background-color: rgb(107, 161, 107);
     height: 4px;
 }
 
-.mulheres{
+.mulheres {
     border-radius: 50%;
     width: 300px;
     height: 300px;
 }
 
-.divisoria{
+.divisoria {
     text-align: center;
     margin-top: 5dvh;
 }
 
-.botoes{
+.botoes {
     width: 300px;
     height: 300px;
     border-radius: 50%;
     margin: 80px;
 }
 
-.botoes:hover{
+.botoes:hover {
     transform: scale(1.1);
     box-shadow: 0 10px 20px black;
 }
 
 
 
-body { 
+body {
     background-image: url("https://www.shutterstock.com/image-vector/abstract-white-background-modern-design-600nw-2478912715.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-.cabecalho{
+.cabecalho {
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url("https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcm0yODEtYWRqLTA2NS1sLmpwZw.jpg");
@@ -62,30 +62,24 @@ body {
     font-size: 55px;
 }
 
-p {
-    
-}
+p {}
 
-.imgcentro {
+.imgcentro {}
 
-}
+nav {}
 
-nav{
-
-}
-
-li{
+li {
     display: inline-block;
-   
+
 
 }
 
-li a{
+li a {
     font-size: 50px;
 
 }
 
-button{
+button {
     font-size: 16px;
     color: rgb(255, 0, 132);
 
@@ -94,20 +88,37 @@ button{
 .rodape {
     height: 100px;
     margin: 0;
-    padding: 0; 
+    padding: 0;
     background-image: url("https://i.pinimg.com/1200x/1c/e3/dc/1ce3dc9938260cd96d5f8feb73aa3c2f.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 
 }
 
-@media(max-widht: 768px){
+@media(max-widht: 768px) {
 
-#titulo{
-    font-size: 40px;
+    #titulo {
+        font-size: 40px;
+    }
+
+    .botoes {
+        margin: 50px;
+    }
 }
 
-.botoes{
-    margin: 50px;
-}
-}
+
+
+
+
+.texto {
+    width: 546px;
+    height: auto;
+    margin: 124px auto;
+    border: 2px solid #333;
+    border-radius: 25px;
+    padding: 0px;
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    align-items: center;
+    }
