@@ -47,6 +47,7 @@ body {
     background-repeat: no-repeat;
     background-image: url("https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcm0yODEtYWRqLTA2NS1sLmpwZw.jpg");
     height: 100px;
+    width: 100dvw;
     background-color: black;
     color: whitesmoke;
     padding-top: 30px;
