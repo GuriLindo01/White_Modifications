@@ -100,4 +100,5 @@ button{
     height: 200px;
     background-color: gray;
     margin-bottom: 0;
+    position: absolute;
 }
