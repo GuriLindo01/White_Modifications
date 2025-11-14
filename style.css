@@ -85,6 +85,10 @@ button {
 
 }
 
+main{
+    flex: 1;
+}
+
 .rodape {
     background-image: url("https://i.pinimg.com/1200x/1c/e3/dc/1ce3dc9938260cd96d5f8feb73aa3c2f.jpg");
     width: auto;
