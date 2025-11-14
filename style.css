@@ -16,13 +16,13 @@ hr{
 }
 
 .divisoria{
+    margin-top: 40%;
     text-align: center;
     margin-top: 10dvh;
 }
 
 .botoes{
     position: absolute;
-    margin-top: 1000px;
     width: 300px;
     height: 300px;
     border-radius: 50%;
