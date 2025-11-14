@@ -26,7 +26,8 @@ hr{
     height: 300px;
     border-radius: 50%;
     margin-top: 40%;
-    margin: 80px;
+    margin-left: 80px;
+    margin-right: 80px;
 }
 
 .botoes:hover{
