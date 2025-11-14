@@ -40,7 +40,6 @@ body {
     background-image: url("https://www.shutterstock.com/image-vector/abstract-white-background-modern-design-600nw-2478912715.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    overflow-x: hidden;
 }
 
 .cabecalho{
@@ -99,7 +98,7 @@ button{
 }
 
 .rodape{
-    height: 200px;
+    padding: 140px 0;
     background-color: gray;
     margin-bottom: 0;
 }
