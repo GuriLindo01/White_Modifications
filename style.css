@@ -40,7 +40,7 @@ body {
     background-image: url("https://www.shutterstock.com/image-vector/abstract-white-background-modern-design-600nw-2478912715.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 .cabecalho{
