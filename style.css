@@ -36,6 +36,8 @@ body {
 }
 
 .cabecalho{
+    background-size: cover;
+    background-repeat: no-repeat;
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdlLoa51Qu_4WszrVDBFQ4OLA3XEisj0K6BQ&s");
     width: 100%;
     height: 100px;
