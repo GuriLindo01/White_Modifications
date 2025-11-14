@@ -1,6 +1,20 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box; /* Adicionado para melhor gerenciamento de layout */
+}
+
+html {
+    height: 100%; /* Essencial para o Flexbox */
+}
+
+body {
+    min-height: 100vh; /* Essencial para o Flexbox */
+    display: flex; /* Habilita o Flexbox */
+    flex-direction: column; /* Organiza os filhos em coluna (topo para baixo) */
+    background-image: url("https://www.shutterstock.com/image-vector/abstract-white-background-modern-design-600nw-2478912715.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 hr {
@@ -30,14 +44,6 @@ hr {
 .botoes:hover {
     transform: scale(1.1);
     box-shadow: 0 10px 20px black;
-}
-
-
-
-body {
-    background-image: url("https://www.shutterstock.com/image-vector/abstract-white-background-modern-design-600nw-2478912715.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 
 .cabecalho {
@@ -70,32 +76,31 @@ nav {}
 
 li {
     display: inline-block;
-
-
 }
 
 li a {
     font-size: 50px;
-
 }
 
 button {
     font-size: 16px;
     color: rgb(255, 0, 132);
-
 }
 
-main{
-    flex: 1;
+main {
+    flex: 1; /* O segredo: faz o main crescer e empurrar o rodapé para baixo */
 }
 
 .rodape {
     background-image: url("https://i.pinimg.com/1200x/1c/e3/dc/1ce3dc9938260cd96d5f8feb73aa3c2f.jpg");
-    width: auto;
-    height: 50px;
+    width: 100%; /* Garante a largura total */
+    min-height: 50px; /* Alterado para min-height para ser mais flexível */
+    padding: 5px 0; /* Adicionado padding para o conteúdo não ficar colado */
+    color: #fff;
+    text-align: center;
 }
 
-@media(max-widht: 768px) {
+@media(max-width: 768px) { /* Correção: 'max-width' */
 
     #titulo {
         font-size: 40px;
@@ -105,10 +110,6 @@ main{
         margin: 50px;
     }
 }
-
-
-
-
 
 .texto {
     width: 600px;
@@ -121,4 +122,4 @@ main{
     color: #333;
     line-height: 1.6;
     align-items: center;
-    }
+}
