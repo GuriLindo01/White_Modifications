@@ -107,7 +107,8 @@ button{
 }
 
 @media(max-widht: 768px){
-    font-size: 14px;
-    overflow: scroll;
 
+body{
+    overflow: scroll;
+}
 }
