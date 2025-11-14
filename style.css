@@ -1,17 +1,22 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box; /* Adicionado para melhor gerenciamento de layout */
+    box-sizing: border-box;
+    /* Adicionado para melhor gerenciamento de layout */
 }
 
 html {
-    height: 100%; /* Essencial para o Flexbox */
+    height: 100%;
+    /* Essencial para o Flexbox */
 }
 
 body {
-    min-height: 100vh; /* Essencial para o Flexbox */
-    display: flex; /* Habilita o Flexbox */
-    flex-direction: column; /* Organiza os filhos em coluna (topo para baixo) */
+    min-height: 100vh;
+    /* Essencial para o Flexbox */
+    display: flex;
+    /* Habilita o Flexbox */
+    flex-direction: column;
+    /* Organiza os filhos em coluna (topo para baixo) */
     background-image: url("https://www.shutterstock.com/image-vector/abstract-white-background-modern-design-600nw-2478912715.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -88,7 +93,8 @@ button {
 }
 
 main {
-    flex: 1; /* O segredo: faz o main crescer e empurrar o rodapé para baixo */
+    flex: 1;
+    /* O segredo: faz o main crescer e empurrar o rodapé para baixo */
 }
 
 .rodape {
@@ -102,7 +108,8 @@ main {
     text-align: center;
 }
 
-@media(max-width: 768px) { /* Correção: 'max-width' */
+@media(max-width: 768px) {
+    /* Correção: 'max-width' */
 
     #titulo {
         font-size: 40px;
@@ -124,4 +131,9 @@ main {
     color: #333;
     line-height: 1.6;
     align-items: center;
+}
+
+.imagem {
+    width: 656px;
+    margin: 103px auto;
 }
