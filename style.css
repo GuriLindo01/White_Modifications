@@ -108,4 +108,8 @@ button{
 body{
     overflow: scroll;
 }
+
+.botoes{
+    margin: 50px;
+}
 }
