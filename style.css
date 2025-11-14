@@ -36,6 +36,7 @@ body {
 }
 
 .cabecalho{
+    height: 200px;
     background-color: black;
     color: whitesmoke;
     padding-top: 30px;
