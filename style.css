@@ -93,9 +93,9 @@ main {
 
 .rodape {
     background-image: url("https://i.pinimg.com/1200x/1c/e3/dc/1ce3dc9938260cd96d5f8feb73aa3c2f.jpg");
-    width: 100%; /* Garante a largura total */
-    min-height: 50px; /* Alterado para min-height para ser mais flexível */
-    padding: 5px 0; /* Adicionado padding para o conteúdo não ficar colado */
+    width: 100%;
+    min-height: 200px;
+    padding: 5px 0;
     color: #fff;
     text-align: center;
 }
