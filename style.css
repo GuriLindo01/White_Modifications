@@ -10,7 +10,7 @@ body {
 }
 
 .cabecalho {
-    background-image: url("https://wallpapers.com/images/hd/best-gaming-background-aea1fp9pow4r1l4r.jpg");
+    background-image: url("https://img.freepik.com/free-vector/v915_53876-174949.jpg?semt=ais_hybrid&w=740&q=80");
     background-repeat: no-repeat;
     background-size: cover;
     color: #4A148C;
@@ -20,7 +20,6 @@ body {
     justify-content: space-between;
     font-family: 'Playfair Display', serif;
     font-size: 1.4em;
-    border-bottom: 3px solid #b119a9;
     box-shadow: 0 2px 4px rgba(206, 117, 214, 0.1);
 }
 
