@@ -78,6 +78,7 @@ body {
     height: 10px;
     text-align: center;
     padding: 80px 0;
+    border-top: #666;
 }
 
 button {
