@@ -116,21 +116,3 @@ main {
         margin: 50px;
     }
 }
-
-.texto {
-    width: 600px;
-    height: auto;
-    margin: 124px auto;
-    border: 2px solid #333;
-    border-radius: 25px;
-    padding: 10px;
-    font-family: Arial, sans-serif;
-    color: #333;
-    line-height: 1.6;
-    align-items: center;
-}
-
-.imagem {
-    width: 656px;
-    margin: 103px auto;
-}
