@@ -1,0 +1,209 @@
+
+body {
+    background-image: url("https://img.freepik.com/vetores-gratis/fundo-aquarela-rosa-detalhado-pintado-a-mao_1048-17039.jpg?semt=ais_incoming&w=740&q=80");
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+
+/* parte de cima */
+.cabecalho {
+    background-image: url("https://img.freepik.com/vetores-gratis/fundo-aquarela-rosa-detalhado-pintado-a-mao_1048-17039.jpg?semt=ais_incoming&w=740&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #4A148C;
+    padding: 30px 650px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.4em;
+    border-bottom: 3px solid #b119a9;
+    box-shadow: 0 2px 4px rgba(206, 117, 214, 0.1);
+}
+
+.cabecalho a {
+    color: #4A148C;
+    text-decoration: none;
+    margin: 0 15px;
+    transition: color 0.3s;
+}
+
+.cabecalho a:hover {
+    color: #E91E63;
+}
+
+#titulo {
+    color: #cf288f;
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5em;
+    margin: 0;
+}
+
+
+
+
+/* imagem */
+.divisoria {
+    text-align: center;
+    margin-top: 10dvh;
+}
+
+.botoes {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-top: 50%;
+    margin: 80px;
+}
+
+.imgcentro {
+    max-width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-top: 50%;
+    margin: 80px;
+}
+
+/* apenas a parte de baixo */
+.rodape {
+    background-image: url("https://img.freepik.com/vetores-gratis/fundo-aquarela-rosa-detalhado-pintado-a-mao_1048-17039.jpg?semt=ais_incoming&w=740&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #cf288f;
+    text-align: center;
+    font-family: 'Georgia', serif;
+    font-size: 2.9em;
+    padding: 140px 0;
+    border-top: 1px solid #f09ab7;
+}
+
+button {
+    font-size: 16px;
+    text-decoration: none;
+    color: rgb(253, 253, 253);
+    background-color: #e68cda;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-family: 'Georgia', serif;
+    box-shadow: 0 20px 30px rgb(43, 41, 41);
+
+
+}
+
+
+.imagem-texto {
+    display: flex;
+}
+
+.texto {
+    width: 546px; 
+    height: auto; 
+    margin: 124px auto; 
+    background-image: url("https://static.vecteezy.com/ti/vetor-gratis/t1/2479271-fundo-rosa-floral-aquarela-vetor.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid #333;
+    border-radius: 25px; 
+    padding: 0px; 
+    font-family: Arial, sans-serif; 
+    color: #333; 
+    line-height: 1.6; 
+    align-items: center;
+    font-weight: bold;
+}
+.imagem{
+    width: 656px;
+    margin: 103px auto;
+}
+
+/* Nao usei ainda */
+li {
+    display: inline-block;
+    text-decoration: none;
+
+
+}
+
+li a {
+    font-size: 50px;
+    text-decoration: none;
+
+}
+
+a{
+    color:  black;
+    text-decoration: none;
+}
+
+
+@media (max-width: 768px) {
+    body {
+        text-align: left;
+    }
+
+    .cabecalho {
+        padding: 20px;
+        flex-direction: column;
+        text-align: center;
+        font-size: 1.1em;
+    }
+
+    .cabecalho a {
+        margin: 5px 0;
+        display: block;
+    }
+
+    #titulo {
+        font-size: 2em;
+        margin-bottom: 10px;
+    }
+    .divisoria {
+        margin-top: 5dvh;
+    }
+
+    .botoes, .imgcentro {
+        max-width: 90%;
+        width: 200px;
+        height: 200px;
+        margin: 30px auto;
+    }
+
+    .imagem-texto {
+        display: block;
+    }
+
+    .texto {
+        width: 90%;
+        margin: 30px auto;
+        padding: 15px;
+    }
+
+    .imagem {
+        width: 90%;
+        margin: 30px auto;
+    }
+
+    .rodape {
+        padding: 50px 0;
+        font-size: 1.5em;
+    }
+
+   
+    button {
+        box-shadow: 0 10px 15px rgba(43, 41, 41, 0.5);
+        justify-content: center;
+    }
+}
+
+
+style.css
+Exibindo style.css…
