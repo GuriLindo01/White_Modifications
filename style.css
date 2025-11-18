@@ -1,10 +1,9 @@
 
 body {
-    background-image: url("https://wallpapers.com/images/hd/clean-background-q9v7tw93md17jlti.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
+ display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
 }
 
 
