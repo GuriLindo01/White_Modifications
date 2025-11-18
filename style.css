@@ -1,6 +1,6 @@
 
 body {
-    background-image: url("https://img.freepik.com/free-photo/hand-painted-watercolor-background_24972-1199.jpg?semt=ais_hybrid&w=740&q=80");
+    background-image: url("https://img.freepik.com/fotos-gratis/fundo-de-tecnologia-de-estrutura-de-arame-abstrato-cinza_53876-101941.jpg?semt=ais_incoming&w=740&q=80");
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -9,10 +9,6 @@ body {
     margin: 0;
 }
 
-
-
-
-/* parte de cima */
 .cabecalho {
     background-image: url("https://wallpapers.com/images/hd/best-gaming-background-aea1fp9pow4r1l4r.jpg");
     background-repeat: no-repeat;
@@ -46,21 +42,21 @@ body {
     margin: 0;
 }
 
-
-
-
-/* imagem */
 .divisoria {
     text-align: center;
     margin-top: 10dvh;
 }
 
 .botoes {
-    width: 300px;
-    height: 300px;
+    width: 320px;
+    height: 320px;
     border-radius: 50%;
     margin-top: 50%;
     margin: 80px;
+}
+
+.botoes:hover{
+
 }
 
 .imgcentro {
@@ -76,7 +72,6 @@ body {
     margin: 80px;
 }
 
-/* apenas a parte de baixo */
 .rodape {
     background-color: #333;
     margin-top: auto;
@@ -95,10 +90,7 @@ button {
     border-radius: 8px;
     font-family: 'Georgia', serif;
     box-shadow: 0 20px 30px rgb(43, 41, 41);
-
-
 }
-
 
 .imagem-texto {
     display: flex;
@@ -125,7 +117,6 @@ button {
     margin: 103px auto;
 }
 
-/* Nao usei ainda */
 li {
     display: inline-block;
     text-decoration: none;
