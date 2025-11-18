@@ -75,9 +75,7 @@ body {
 
 /* apenas a parte de baixo */
 .rodape {
-    background-image: url("https://wallpapers.com/images/hd/plain-zoom-background-c3fja685uz4es97v.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: #333;
     margin-top: auto;
     height: 10px;
     text-align: center;
